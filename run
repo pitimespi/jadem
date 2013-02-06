@@ -1,0 +1,1 @@
+java -Xmx2048m -Xms1024m -jar build/taglearner-text-extractor-1.5.jar -libs lib/* taglearner.TextExtractor.TextExtractor -m weka -r /Users/austin/data --rc removelist.txt --weka kmeans --of KmeansOptFile.txt --ef ExperimentFile.txt
